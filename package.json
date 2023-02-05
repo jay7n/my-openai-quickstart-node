@@ -15,5 +15,6 @@
   },
   "engines": {
     "node": ">=14.6.0"
-  }
+  },
+  "repository": "git@github.com:jay7n/my-openai-quickstart-node.git"
 }
