@@ -34,7 +34,7 @@ export default async function(cbOnSpeech, cbOnOver) {
   window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   window.SpeechGrammarList = window.SpeechGrammarList || window.webkitSpeechGrammarList;
   window.SpeechRecognitionEvent = window.SpeechRecognitionEvent || window.webkitSpeechRecognitionEvent;
-  const recognition = new SpeechRecognition();
+  const recognition = new window.SpeechRecognition();
   recognition.continuous = false;
   recognition.lang = curLang;
   recognition.interimResults = false;
