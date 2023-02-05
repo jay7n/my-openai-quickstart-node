@@ -118,6 +118,7 @@ export default function Home() {
         <img src="/dog.png" className={styles.icon} />
         <h3>Name my pet</h3>
         <form onSubmit={onSubmitLegacy}>
+          <input type="text" x-webkit-speech />
           <input
             type="text"
             name="prompt"
